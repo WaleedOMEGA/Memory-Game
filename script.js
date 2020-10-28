@@ -105,7 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //create your board
     const createBoard = () => {
         for (let i = 0; i < cardArray.length; i++) {
-            console.log(i);
             var card = document.createElement('img');
             card.setAttribute('src', 'images/blank.png');
             card.setAttribute('data-id', i.toString());
